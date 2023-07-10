@@ -1,8 +1,5 @@
 version: "3.7"
 
-networks:
-    laravel-tce:
-
 services:
 
     php:
