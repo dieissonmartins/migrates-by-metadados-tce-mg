@@ -1,1 +1,1 @@
-./exec.sh
+docker-compose exec app php artisan migrate
