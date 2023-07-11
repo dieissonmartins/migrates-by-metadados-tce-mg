@@ -30,9 +30,9 @@ return new class extends Migration {
             $table->text('dsc_subalinea');
             $table->text('dsc_tipo');
             $table->text('dsc_fonterecurso');
-            $table->integer('vlr_previsaoinicial');
-            $table->integer('vlr_previsaoatualizada');
-            $table->integer('vlr_realizadoateperiodo');
+            $table->float('vlr_previsaoinicial', 8, 3);
+            $table->float('vlr_previsaoatualizada', 8, 3);
+            $table->float('vlr_realizadoateperiodo', 8, 3);
             $table->text('num_versaoarq');
 
             $table->timestamps();
