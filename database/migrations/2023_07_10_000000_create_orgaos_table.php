@@ -6,7 +6,10 @@ use Illuminate\Support\Facades\Schema;
 
 return new class extends Migration {
 
-    private const TABLE = 'orgaos';
+    /**
+     * Informações referentes aos órgãos municipais.
+     */
+    protected const TABLE = 'orgaos';
 
     /**
      * Run the migrations.
